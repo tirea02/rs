@@ -6,7 +6,7 @@ module.exports = {
         return [
             {
                 source: '/api/:path*', // Match any API route
-                destination: 'http://localhost:8080/api/:path*', // Proxy to your backend server
+                destination: 'http://3.34.1.192:8080/api/:path*', // Proxy to your backend server
             },
         ];
     },
