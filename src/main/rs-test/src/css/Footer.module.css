@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* Google Web Font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
+
+/* XEIcon CDN */
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+/* Default CSS */
+
+/* Common CSS */
+
+
+/* ############## Footer ############## */
+
+/* Styles specific to the Footer component */
+.myFooter {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    color: #fff;
+    font-size: 13px;
+}
+
+.myFooter.dark {
+    background-color: rgb(23, 20, 20);
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1300px;
+    padding: 20px 0;
+}
+
+.footer-logo {
+}
+
+.footer-logo img {
+    width: 200px;
+    height: 50px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service span {
+    display: block;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-text span {
+    margin: 0 10px;
+}
+
+.service-text span:nth-child(3) {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.service-text span:after {
+    content: '|';
+    margin-left: 20px;
+}
+
+.service-text span:last-child:after {
+    display: none;
+}
+
+.sns {
+    font-size: 30px;
+    text-align: right;
+}
+
+.sns a {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sns.dark a i {
+    color: #fff;
+}
+
+.sns a i {
+    transition: 0.3s;
+}
+
+.sns a:nth-child(1):hover i {
+    color: #1977f3;
+}
+
+.sns a:nth-child(2):hover i {
+    color: #b73498;
+}
+
+.sns a:nth-child(3):hover i {
+    color: #1da1f3;
+}
+
+.sns a:nth-child(4):hover i {
+    color: #ff0000;
+}
+
+.sub-text {
+    border-top: 1px solid #fff;
+}

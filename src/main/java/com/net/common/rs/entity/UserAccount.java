@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 import java.sql.Date;
 
 
-@Entity
+
 @Data
 @NoArgsConstructor
+@Entity
 @Table(name = "UserAccount")
 public class UserAccount {
     @Id
